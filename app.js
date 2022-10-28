@@ -25,7 +25,7 @@ mongoose
     console.log(err);
   });
 
-cron.schedule("* * * * *", () => {
+cron.schedule("5 * * * *", () => {
   console.log("running a task every five minute");
   smsScheduler();
 });
